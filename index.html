@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bicol News Today</title>
+  <meta name="description" content="Bicol News Today - News, updates and stories from Bicol and the Philippines.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container topbar-inner">
+    <div class="brand"><span class="brand-mark">BN</span><div><strong>Bicol News Today</strong><small>News • Community • Public Service</small></div></div>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a><a href="#bicol">Bicol</a><a href="#national">National</a>
+      <a href="#business">Business</a><a href="#sports">Sports</a><a href="#features">Features</a>
+      <a href="#about">About</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="container">
+      <div class="breaking"><span>BREAKING</span> Latest updates from Bicol and across the Philippines</div>
+      <div class="hero-grid">
+        <article class="lead-card">
+          <div class="photo-placeholder">MAIN NEWS PHOTO</div>
+          <div class="lead-content">
+            <span class="tag">BICOL</span>
+            <h1>Latest Bicol news and community updates</h1>
+            <p>Stay informed with timely reports, public-service stories and developments across the Bicol Region.</p>
+            <a class="read-more" href="#bicol">Read Story →</a>
+          </div>
+        </article>
+        <aside class="side-news">
+          <article><span class="tag">ALBAY</span><h3>Local developments continue across Albay</h3><p>September 29, 2026</p></article>
+          <article><span class="tag">CAMARINES</span><h3>Community stories and public service updates</h3><p>September 29, 2026</p></article>
+          <article><span class="tag">SORSOGON</span><h3>Transport, tourism and infrastructure in focus</h3><p>September 29, 2026</p></article>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="bicol">
+    <div class="container">
+      <div class="section-title"><h2>Bicol News</h2><a href="#">View all →</a></div>
+      <div class="cards">
+        <article class="card"><div class="thumb">PHOTO</div><div class="card-body"><span class="tag">ALBAY</span><h3>Public service and local government updates</h3><p>News and developments affecting communities in Albay.</p></div></article>
+        <article class="card"><div class="thumb">PHOTO</div><div class="card-body"><span class="tag">CAMARINES SUR</span><h3>Programs, projects and community activities</h3><p>Stories from cities and municipalities across Camarines Sur.</p></div></article>
+        <article class="card"><div class="thumb">PHOTO</div><div class="card-body"><span class="tag">SORSOGON</span><h3>Infrastructure and tourism developments</h3><p>Updates from Sorsogon and neighboring provinces.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="national">
+    <div class="container">
+      <div class="section-title"><h2>National News</h2><a href="#">View all →</a></div>
+      <div class="news-list">
+        <article><div class="mini-photo">PHOTO</div><div><span class="tag">NATIONAL</span><h3>Latest developments in the Philippines</h3><p>September 29, 2026 · 10:30 AM</p></div></article>
+        <article><div class="mini-photo">PHOTO</div><div><span class="tag">GOVERNMENT</span><h3>Government agencies announce new programs</h3><p>September 29, 2026 · 9:15 AM</p></div></article>
+        <article><div class="mini-photo">PHOTO</div><div><span class="tag">ECONOMY</span><h3>Business and economic updates</h3><p>September 29, 2026 · 8:45 AM</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="business">
+    <div class="container">
+      <div class="section-title"><h2>Business</h2></div>
+      <div class="quote-box"><strong>YOUR ADVERTISEMENT HERE</strong><span>Use this space for advertisers, sponsors or public-service announcements.</span></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="sports">
+    <div class="container">
+      <div class="section-title"><h2>Sports</h2></div>
+      <div class="cards">
+        <article class="card"><div class="thumb">SPORTS PHOTO</div><div class="card-body"><span class="tag">SPORTS</span><h3>Bicol athletes and sporting events</h3><p>Results, profiles and community sports stories.</p></div></article>
+        <article class="card"><div class="thumb">SPORTS PHOTO</div><div class="card-body"><span class="tag">LOCAL SPORTS</span><h3>Schools and LGUs prepare for competitions</h3><p>Updates from local sporting events.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-title"><h2>Features</h2></div>
+      <div class="feature"><div class="feature-photo">FEATURE PHOTO</div><div><span class="tag">SPECIAL REPORT</span><h2>Stories that matter to Bicol communities</h2><p>Use this section for long-form reports, interviews, explainers, human-interest stories and photo essays.</p><a class="read-more" href="#">Read Feature →</a></div></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="about">
+    <div class="container about">
+      <h2>About Bicol News Today</h2>
+      <p>Bicol News Today is a sample digital news platform designed for reporting timely developments, community stories and public-service information from Bicol and beyond.</p>
+      <p><strong>Email:</strong> news@example.com &nbsp; | &nbsp; <strong>Facebook:</strong> @BicolNewsToday</p>
+    </div>
+  </section>
+</main>
+
+<footer><div class="container"><strong>Bicol News Today</strong><span>© 2026 All rights reserved.</span></div></footer>
+<script>
+function toggleMenu(){document.getElementById('nav').classList.toggle('open')}
+</script>
+</body>
+</html>
